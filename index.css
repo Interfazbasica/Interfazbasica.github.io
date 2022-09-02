@@ -1,0 +1,217 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "roboto",sans-serif;
+    margin: 0;
+}
+
+h1{ font-size: 3.5en;}
+h2{ font-size: 2.7en;}
+h3{ font-size: 2en;}
+p{ font-size: 1.25en;}
+ul{ list-style: none;}
+li{ font: size 2.25em;}
+
+button{
+    font-size: 5en;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0),;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0);
+    color:white;
+    background-color: rgba(22, 170, 180, 0.877);
+}
+
+button:hover{
+    background-color: rgba(12, 157, 160, 0.671);
+
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.color-acento{color: rgba(22, 170, 180, 0.877);}
+
+header{
+    background-color: rgb(245,245,245);
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: rgba(22, 170, 180, 0.877);
+    text-align: center;
+    font-size: 1.50em;
+}
+
+header.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px  12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: rgba(22, 170, 180, 0.877);
+}
+
+#hero{
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: url(img/imagen2.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center  center;
+}
+
+#hero h1{
+    color: white;
+}
+
+#somos-technologies .container{
+    display: flex;
+    text-align: center;
+    text-align: center;
+    padding: 195px 12px;
+    justify-content: center;
+}
+
+#somos-technologies .texto{
+    width: 50%;
+    text-align: initial;
+    padding: 0px  30px;
+}
+
+
+
+#principales-tecnologias{
+    background-color: rgb(30,30,30);
+    color: white;    
+    text-align: center;
+}
+
+#principales-tecnologias .container{
+    padding: 180px 0px;
+}
+
+#principales-tecnologias h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#principales-tecnologias .carta{
+    background-position: center  center;
+    background-size: cover;
+    padding: 55px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+#principales-tecnologias .tecnologias{
+    display: none;
+    display: flex;
+    justify-content: center;
+}
+
+#principales-tecnologias p{
+    display: block;
+}
+
+.carta:first-child{    
+    
+    background-image: url(img/imagen5.jpg);
+    background-position: center  center;
+    background-size: cover;
+}
+
+.carta:nth-child(2){
+
+  background-image: url(img/imagen3.jpg); 
+  background-position: center  center;
+  background-size: cover;
+}
+
+.carta:nth-child(3){
+
+    background-image: url(img/publicidad.jpg);
+    background-position: center  center;
+    background-size: cover;
+}
+
+#caracteristicas .container{
+    text-align: center;
+    padding: 200px  10px;
+}
+
+#caracteristicas li{
+    margin: 19px  0px;
+    font-weight: bold;
+}
+
+#conoselas-ya{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 75vh;
+    background-color: black;
+    color: white;
+    background-image: url(img/imagen1.jpg);
+    background-position: center  center;
+    background-size: cover;
+}
+
+#conoselas-ya{
+    font-size: 3vw;
+}
+
+#conocelas-ya{
+    font-size: 6vw;
+}
+
+footer{
+    background-color: rgb(230,230,230);
+}
+
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(100,100,100);
+}
+
+footer .container{
+    height: 145px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
